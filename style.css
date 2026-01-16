@@ -541,3 +541,243 @@ html {
 #home, #about, #projects, #contact {
   scroll-margin-top: 72.8px; /* Adjust this value based on your navbar height */
 }
+
+/* =========================
+   TABLET (<=1024px)
+========================= */
+@media (max-width: 1024px) {
+
+  .text-mobile-enthusiast {
+    font-size: 120px;
+    margin-top: -200px;
+  }
+
+  .overlay-image {
+    height: 600px;
+  }
+
+  .about p,
+  .projects p {
+    width: 80%;
+  }
+
+  .contact{
+    padding: 100px;
+  }
+
+  .contact-card {
+    max-width: 90%;
+  }
+}
+
+/* =========================
+   MOBILE (<=768px)
+========================= */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .navigation ul {
+    gap: 20px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Home */
+  .home {
+    height: auto;
+    padding-top: 80px;
+  }
+
+  .home > p {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .text-mobile-enthusiast {
+    font-size: 72px;
+    margin-top: 0;
+    position: static;
+  }
+
+  .stacked-container {
+    margin-top: 20px;
+  }
+
+  .overlay-image {
+    position: static;
+    transform: none;
+    height: 300px;
+    margin: 20px 0;
+  }
+
+  .button-group {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .btn {
+    width: 80%;
+    text-align: center;
+  }
+
+  /* About */
+  .about {
+    height: auto;
+  }
+
+  .about h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .about p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .tech-card {
+    width: 90px;
+    height: 90px;
+  }
+
+  /* Projects */
+  .projects {
+    height: auto;
+  }
+
+  .projects h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .projects p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .project-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  /* Contact */
+  .contact {
+    height: auto;
+  }
+  .contact h1 {
+    font-size: 48px;
+  }
+
+  .contact p {
+    width: 90%;
+    font-size: 16px;
+  }
+  .contact-card {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    border-left: none;
+    border-top: 1px solid #e0e0e0;
+  }
+}
+
+/* =========================
+   SMALL MOBILE (<=480px)
+========================= */
+@media (max-width: 480px) {
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .text-mobile-enthusiast {
+    font-size: 56px;
+  }
+
+  .stroked-text {
+    letter-spacing: 4px;
+    -webkit-text-stroke: 0.6px #212121;
+  }
+
+  .overlay-image {
+    height: 220px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .contact {
+    padding: 0 10px;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    border-radius: 4px;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-info h2 {
+    font-size: 24px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+
+  .contact-method {
+    gap: 10px;
+  }
+
+  .contact-method strong {
+    font-size: 14px;
+  }
+
+  .contact-method p {
+    font-size: 13px;
+  }
+
+  .contact-form label {
+    font-size: 13px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+    padding: 12px;
+  }
+  footer {
+    font-size: 14px;
+  }
+}
